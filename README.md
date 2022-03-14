@@ -4,8 +4,7 @@
   Directorul principal este "home" si este declarat si alocat la inceput; acesta este si directorul curent initial.
     Citirea se face pe cate o linie care este retinuta inr-un buffer, iar comanda citita este impartita in mai multe
 siriuri de caractere, in functie de numarul de spatii gasite, aceste fiind delimitatorii dintre cuvinte.
-    Se apleleaza functia corespunzatoare primului cuvant, care reprezinta comanda data.
-
+    Se apleleaza functia corespunzatoare primului cuvant, care reprezinta comanda data.   
     Functia "touch" creeaza un fisier nou cu numele dat in directorul curent, daca acest nu exista deja.
     Functia "mkdir" creeaza un director nou cu numele dat in directorul curent, daca acest nu exista deja.
     Functia "ls" parcurge si afiseaza toate directoarele si apoi fisierele din directorul curent.
@@ -25,6 +24,5 @@ nivelul in care ne aflam in ierarhie pentru un fisier sau director, raportat la 
     Functia "mv" modifica numele unui fisier sau director dat. Mai intai cauta daca exista fisierul/directorul 
 cu numele dat si daca nu exista niciun fisier/director cu noul nume. Daca conditiile sunt indeplinite, numele este
 schimbat in cel nou si fisierul/directorul este mutat la sfarsitul listei de fisiere/directoare a parintelui sau.
-
     La final, se elibereaza bufferul care retine ultima comanda data si apoi se apleleaza functia "stop" 
 care elibereaza toata memoria alocata printr-o parcurgere recursiva si opreste programul.
